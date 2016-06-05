@@ -12,6 +12,7 @@
 
 # 如何提交
 
+1. 实验中心提交
 1. 申请 github 帐号。
 2. 访问[作业 & 实验链接](https://classroom.github.com/assignment-invitations/7a168a9baa44fcfb9e1ed141a9f00208)。
 3. 在自己的 repo 里完成作业和实验。
