@@ -18,13 +18,15 @@
 ```
 Producer 1: 0 -> 1
 Consumer 2: 1 -> 0
-Consumer 3: waiting
+# Consumer 3: waiting
 ...
 Producer 0: 0 -> 1
-Consumer 3: (resume) 1 -> 0
+# Consumer 3: resumed
+Consumer 3: 1 -> 0
 ...
 Producer 1: 9 -> 10
-Producer 2: waiting
+# Producer 2: waiting
 Consumer 1: 10 -> 9
-Producer 2: (resume) 9 -> 10
+# Producer 2: resumed
+Producer 2: 9 -> 10
 ```
